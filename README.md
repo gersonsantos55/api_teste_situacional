@@ -70,7 +70,7 @@ http://127.0.0.1:5000/transferencia/listar/usu_id=1&dt_inicio=null&dt_fim=null&p
   
 Retorna todas as transferências feitas no dia 14/03/2019
   
-http://127.0.0.1:5000/transferencia/listar/usu_id=1&dt_inicio=2019-03-14 00:00:00&dt_fim=2019-03-15 00:00:00&pag=null&ben=null&pag_atual=null&tam_pag=null
+http://127.0.0.1:5000/transferencia/listar/usu_id=1&dt_inicio=2019-03-14%2000:00:00&dt_fim=2019-03-15%2000:00:00&pag=null&ben=null&pag_atual=null&tam_pag=null
 
 Retorna todas as transferências em que tanto o pagador quanto o beneficiário contem a letra **N** no nome
 
