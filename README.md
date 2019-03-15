@@ -62,20 +62,20 @@ Abaixo alguns exemplos.
 
 Retorna todos os registros do banco:
 
-127.0.0.1:5000/transferencia/listar/usu_id=null&dt_inicio=null&dt_fim=null&pag=null&ben=null&pag_atual=null&tam_pag=null
+http://127.0.0.1:5000/transferencia/listar/usu_id=null&dt_inicio=null&dt_fim=null&pag=null&ben=null&pag_atual=null&tam_pag=null
 
 Retorna todas as transferências feitas pelo cliente com id 1:
 
-127.0.0.1:5000/transferencia/listar/usu_id=1&dt_inicio=null&dt_fim=null&pag=null&ben=null&pag_atual=null&tam_pag=null
+http://127.0.0.1:5000/transferencia/listar/usu_id=1&dt_inicio=null&dt_fim=null&pag=null&ben=null&pag_atual=null&tam_pag=null
   
 Retorna todas as transferências feitas no dia 14/03/2019
   
-127.0.0.1:5000/transferencia/listar/usu_id=1&dt_inicio=2019-03-14 00:00:00&dt_fim=2019-03-15 00:00:00&pag=null&ben=null&pag_atual=null&tam_pag=null
+http://127.0.0.1:5000/transferencia/listar/usu_id=1&dt_inicio=2019-03-14 00:00:00&dt_fim=2019-03-15 00:00:00&pag=null&ben=null&pag_atual=null&tam_pag=null
 
 Retorna todas as transferências em que tanto o pagador quanto o beneficiário contem a letra **N** no nome
-  
-127.0.0.1:5000/transferencia/listar/usu_id=1&dt_inicio=null&dt_fim=null&pag=n&ben=n&pag_atual=null&tam_pag=null
+
+http://127.0.0.1:5000/transferencia/listar/usu_id=1&dt_inicio=null&dt_fim=null&pag=n&ben=n&pag_atual=null&tam_pag=null
 
 Retorna todas as transferências da página 2 sendo que cada página possui 5 registros
 
-127.0.0.1:5000/transferencia/listar/usu_id=null&dt_inicio=null&dt_fim=null&pag=null&ben=null&pag_atual=2&tam_pag=5
+http://127.0.0.1:5000/transferencia/listar/usu_id=null&dt_inicio=null&dt_fim=null&pag=null&ben=null&pag_atual=2&tam_pag=5
