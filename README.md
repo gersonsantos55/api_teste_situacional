@@ -11,7 +11,7 @@ A API foi desenvolvida utilizando a IDE PyCharm.
 
 Foram desenvolvidas 3 funções para alcançar esse objetivo, uma de cadastro, uma de consulta que cria um filtro com os parâmetros passados e ignora os com null, e por último uma de exclusão lógica, foi utilizando os framework Flask e PyMySQL.
 
-A documentação detalhada da API utilizando swagger foi a única parte que não foi feita, mas no último tópico disponibilizei as paths para testar as funcionalidades de listagem, e adicionei comentários no código fonte.
+A documentação detalhada da API utilizando swagger foi a única parte que não foi feita, mas no último tópico disponibilizei as paths para testar as funcionalidades da listagem, e adicionei comentários no código fonte.
 
 
 # Instalação
